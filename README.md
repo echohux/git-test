@@ -19,7 +19,8 @@ python split_data.py \
   --train /data/way/segment_generate/datasets/level_windows_train.json \
   --val /data/way/segment_generate/datasets/level_windows_val.json \
   --test /data/way/segment_generate/datasets/level_windows_test.json
-   
+   ![Uploading 037faa2e-8a66-4155-adfc-0293b257d5dc.png…]()
+
 第二步：训练文本编码器
 1. 训练文本编码器:
   python train_mlm.py   --epochs 300   --save_checkpoints   --json /data/way/segment_generate/datasets/level_windows_with_captions.json   --val_json /data/way/segment_generate/datasets/level_windows_with_captions-validate.json   --test_json /data/way/segment_generate/datasets/level_windows_with_captions-test.json   --pkl /data/way/segment_generate/datasets/level_windows_tokenizer.pkl   --output_dir /data/way/segment_generate/Mar1and2-MLM-regular0   --seed 0
