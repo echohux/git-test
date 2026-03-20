@@ -19,7 +19,7 @@ python split_data.py \
   --train /data/way/segment_generate/datasets/level_windows_train.json \
   --val /data/way/segment_generate/datasets/level_windows_val.json \
   --test /data/way/segment_generate/datasets/level_windows_test.json
-   ![Uploading 037faa2e-8a66-4155-adfc-0293b257d5dc.png…]()
+
 
 第二步：训练文本编码器
 1. 训练文本编码器:
